@@ -1,27 +1,20 @@
 namespace LearnOOP
 {
-    public record ThreeDDot : TwoDDot
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <value></value>
+    public record ThreeDPoint : TwoDPoint, IAddPoint<ThreeDPoint>
     {
         public int Z { get; set; }
 
-        public ThreeDDot(int x, int y, int z) : base(x, y)
+        public ThreeDPoint(int x, int y, int z) : base(x, y)
         {
             this.Z = z;
         }
-        public ThreeDDot()
+        public ThreeDPoint()
         {
 
-        }
-
-        public  ThreeDDot AddDot(ThreeDDot dot)
-        {
-            var resDot = new ThreeDDot()
-            {
-                X = dot.X + this.X,
-                Y = dot.Y + this.Y,
-                Z = dot.Z + this.Z
-            };
-            return resDot;
         }
 
         public override string ToString()
@@ -30,9 +23,26 @@ namespace LearnOOP
             return str;
         }
 
-        public static ThreeDDot operator +(ThreeDDot d1, ThreeDDot d2)
+
+        /// <summary>
+        /// Add Point to current Point
+        /// </summary>
+        /// <param name="t1">this is Point</param>
+        /// <returns>a threedPoint such as point(3,4) </returns>
+        public ThreeDPoint AddPoint(ThreeDPoint t1)
         {
-            var res = new ThreeDDot()
+            var res = new ThreeDPoint
+            {
+                X = t1.X + this.X,
+                Y = t1.Y + this.Y,
+                Z = t1.Z + this.Z
+            };
+            return res;
+        }
+
+        public static ThreeDPoint operator +(ThreeDPoint d1, ThreeDPoint d2)
+        {
+            var res = new ThreeDPoint()
             {
                 X = d1.X + d2.X,
                 Y = d1.Y + d2.Y,
@@ -40,6 +50,5 @@ namespace LearnOOP
             };
             return res;
         }
-        
     }
 }

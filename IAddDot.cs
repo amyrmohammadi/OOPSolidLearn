@@ -1,7 +1,7 @@
 namespace LearnOOP
 {
-    public interface IAddDot<T> where T :Dot
+    public interface IAddPoint<T> where T :Point
     {
-         T AddDot(T t1 ,T t2);
+          T AddPoint(T t1);
     }
 }
