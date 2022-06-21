@@ -1,0 +1,15 @@
+E:\TechSnovel\Learn\OOP\LearnOOP\bin\Debug\net6.0\LearnOOP.exe
+E:\TechSnovel\Learn\OOP\LearnOOP\bin\Debug\net6.0\LearnOOP.deps.json
+E:\TechSnovel\Learn\OOP\LearnOOP\bin\Debug\net6.0\LearnOOP.runtimeconfig.json
+E:\TechSnovel\Learn\OOP\LearnOOP\bin\Debug\net6.0\LearnOOP.dll
+E:\TechSnovel\Learn\OOP\LearnOOP\bin\Debug\net6.0\LearnOOP.pdb
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\LearnOOP.csproj.AssemblyReference.cache
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\LearnOOP.GeneratedMSBuildEditorConfig.editorconfig
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\LearnOOP.AssemblyInfoInputs.cache
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\LearnOOP.AssemblyInfo.cs
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\LearnOOP.csproj.CoreCompileInputs.cache
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\LearnOOP.dll
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\refint\LearnOOP.dll
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\LearnOOP.pdb
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\LearnOOP.genruntimeconfig.cache
+E:\TechSnovel\Learn\OOP\LearnOOP\obj\Debug\net6.0\ref\LearnOOP.dll
